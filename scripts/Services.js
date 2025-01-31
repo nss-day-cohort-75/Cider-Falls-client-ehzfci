@@ -8,9 +8,9 @@ export const getServices = async () => {
     for (const service of services )
         {
         servicesHTML += `
-                        <ol>
+                        <ul>
                         <li>${service.name}</li>
-                        </ol>
+                        </ul>
                         `
     }
     return servicesHTML
