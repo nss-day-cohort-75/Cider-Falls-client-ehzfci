@@ -1,10 +1,10 @@
 import { getServices } from "./Services.js"
-
+import { getGuests } from "./guests.js"
 
 const render = async () => {
     
     let Services = await getServices()
-
+    let Guests = await getGuests()
     const applicationHTML = `
     <h1>Cider Falls</h1>
     <article class="details">
@@ -19,8 +19,8 @@ const render = async () => {
     </article>
 
     <article class="Guests">
-    <h1>Guests</h1>
-        <h2></h2>
+    <h2>Guests</h2>
+    ${Guests}      
     </article>
 `
 let maincontainer = document.getElementById('container')
