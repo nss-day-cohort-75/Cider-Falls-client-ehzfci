@@ -1,12 +1,14 @@
 import { getServices } from "./Services.js";
 import { getParks } from "./Parks.js";
+import { getGuests } from "./guests.js";
+
+
 
 const render = async () => {
-    // Fetch services and parks data
-    let Services = await getServices();
-    let Parks = await getParks();
-
-    // Generate the HTML structure
+    
+    let Services = await getServices()
+    let Guests = await getGuests()
+    let Parks = await getParks ()
     const applicationHTML = `
     <h1>Cider Falls</h1>
     <article class="details">
@@ -21,8 +23,8 @@ const render = async () => {
     </article>
 
     <article class="Guests">
-        <h1>Guests</h1>
-        <h2></h2>
+    <h2>Guests</h2>
+    ${Guests}      
     </article>
     `;
     
