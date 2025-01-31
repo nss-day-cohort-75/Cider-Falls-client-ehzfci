@@ -1,0 +1,60 @@
+{
+    "parks": [
+      { "id": 1, "title": "Chamfort River" },
+      { "id": 2, "title": "Lost Wolf Hiking Trail" },
+      { "id": 3, "title": "Lodge" },
+      { "id": 4, "title": "Gander River" },
+      { "id": 5, "title": "Campgrounds" },
+      { "id": 6, "title": "Pine Bluffs Trails" }
+    ],
+    "services": [
+      { "id": 1, "name": "rafting" },
+      { "id": 2, "name": "canoeing" },
+      { "id": 3, "name": "fishing" },
+      { "id": 4, "name": "hiking" },
+      { "id": 5, "name": "picnicking" },
+      { "id": 6, "name": "rock climbing" },
+      { "id": 7, "name": "lodging" },
+      { "id": 8, "name": "parking" },
+      { "id": 9, "name": "information" },
+      { "id": 10, "name": "zip lines" }
+    ],
+    "parksServices": [
+      { "parkAreaId": 1, "parkServiceId": 1 },
+      { "parkAreaId": 1, "parkServiceId": 2 },
+      { "parkAreaId": 1, "parkServiceId": 3 },
+      { "parkAreaId": 2, "parkServiceId": 4 },
+      { "parkAreaId": 2, "parkServiceId": 5 },
+      { "parkAreaId": 2, "parkServiceId": 6 },
+      { "parkAreaId": 3, "parkServiceId": 7 },
+      { "parkAreaId": 3, "parkServiceId": 8 },
+      { "parkAreaId": 3, "parkServiceId": 9 },
+      { "parkAreaId": 3, "parkServiceId": 5 },
+      { "parkAreaId": 4, "parkServiceId": 3 },
+      { "parkAreaId": 4, "parkServiceId": 4 },
+      { "parkAreaId": 5, "parkServiceId": 9 },
+      { "parkAreaId": 5, "parkServiceId": 7 },
+      { "parkAreaId": 5, "parkServiceId": 8 },
+      { "parkAreaId": 6, "parkServiceId": 4 },
+      { "parkAreaId": 6, "parkServiceId": 5 },
+      { "parkAreaId": 6, "parkServiceId": 10 }
+    ],
+    "guests": [
+      { "id": 1, "firstName": "John", "lastName": "Doe" },
+      { "id": 2, "firstName": "Jane", "lastName": "Smith" },
+      { "id": 3, "firstName": "Bobby", "lastName": "McGee" },
+      { "id": 4, "firstName": "Frank", "lastName": "Hank" },
+      { "id": 5, "firstName": "Sally", "lastName": "Smuthers" },
+      { "id": 6, "firstName": "Peanut", "lastName": "Butter" },
+      { "id": 7, "firstName": "Hawk", "lastName": "Tua" },
+      { "id": 8, "firstName": "Stacey's", "lastName": "Mom" },
+      { "id": 9, "firstName": "Ricky", "lastName": "Bobbie" }
+    ],
+    "parkGuests": [
+      { "parkAreaId": 1, "guest_id": 1 },
+      { "parkAreaId": 2, "guest_id": 1 },
+      { "parkAreaId": 3, "guest_id": 2 }
+    ]
+  }
+
+
