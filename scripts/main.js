@@ -13,6 +13,7 @@ const render = async () => {
 
     const applicationHTML = `
     <h1>Cider Falls</h1>
+    <img src="./media/image_720.png" class="logo" />
     <article class="details">
         <section>
             <h2>Services</h2>
