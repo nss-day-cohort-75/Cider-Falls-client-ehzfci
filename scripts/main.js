@@ -1,7 +1,7 @@
 import { getServices } from "./Services.js";
 import { getParks } from "./Parks.js";
 import { getGuests } from "./guests.js";
-
+import { getFooterHTML } from "./Footer.js";
 
 
 const render = async () => {
@@ -9,6 +9,8 @@ const render = async () => {
     let Services = await getServices()
     let Guests = await getGuests()
     let Parks = await getParks ()
+    let Footer = getFooterHTML()
+
     const applicationHTML = `
     <h1>Cider Falls</h1>
     <article class="details">
@@ -16,6 +18,8 @@ const render = async () => {
             <h2>Services</h2>
             ${Services}
         </section>
+        </article>
+    <article class="Parks">
         <section>
             <h2>Parks</h2>
             ${Parks}
@@ -26,6 +30,8 @@ const render = async () => {
     <h2>Guests</h2>
     ${Guests}      
     </article>
+    ${Footer}
+
     `;
     
     // Inject the generated HTML into the main container
