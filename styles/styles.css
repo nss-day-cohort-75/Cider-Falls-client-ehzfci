@@ -30,6 +30,10 @@ article {
     border-radius: 10px; /* Rounded edges */
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    display: grid;
+  grid-template-columns: 2fr 1fr;  
+  grid-template-rows: auto auto;      
+  gap: 10px;                         
 }
 
 /* Footer Styles */
@@ -50,3 +54,15 @@ footer {
     height: 50px;
 }
 
+.details {
+    grid-column: span 1;
+}
+
+.guests {
+    grid-column: span; 
+    grid-row: 1;          
+}
+
+.parks{
+    grid-row: 2;
+}

@@ -14,22 +14,23 @@ const render = async () => {
     const applicationHTML = `
     <h1>Cider Falls</h1>
     <img src="./media/image_720.png" class="logo" />
-    <article class="details">
-        <section>
+    <article>
+        <section class="details">
             <h2>Services</h2>
             ${Services}
         </section>
-        </article>
-    <article class="Parks">
-        <section>
+    
+        <section class="Guests">
+          <h2>Guests</h2>
+          ${Guests} 
+          </section>     
+    
+        <section class="Parks">
             <h2>Parks</h2>
             ${Parks}
         </section>
-    </article>
+    
 
-    <article class="Guests">
-    <h2>Guests</h2>
-    ${Guests}      
     </article>
     ${Footer}
 
