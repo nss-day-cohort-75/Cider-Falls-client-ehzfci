@@ -1,0 +1,45 @@
+/* Global Styles */
+
+body {
+    background-color: #DAA520; /* Goldenrod */
+    font-family: Arial, sans-serif;
+}
+
+/* List Item Styles */
+
+li {
+    background-color: #F5F5DC; /* Light beige */
+    padding: 10px;
+    border-radius: 10px; /* Rounded edges */
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Header Styles */
+
+h1, h2 {
+    color: #663300; /* Dark brown */
+    margin-bottom: 20px;
+}
+
+/* Article Styles */
+
+article {
+    background-color: #F5F5DC; /* Light beige */
+    padding: 20px;
+    border-radius: 10px; /* Rounded edges */
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #F5F5DC; /* Light beige */
+    padding: 10px;
+    border-radius: 10px; /* Rounded edges */
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    text-align: center;
+    color: #663300; /* Dark brown */
+}
