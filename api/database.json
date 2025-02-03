@@ -51,9 +51,31 @@
       { "id": 9, "Name": "Ricky Bobbie" }
     ],
     "parkGuests": [
-      { "parkAreaId": 1, "guest_id": 1 },
-      { "parkAreaId": 2, "guest_id": 1 },
-      { "parkAreaId": 3, "guest_id": 2 }
+      { "parkAreaId": 1, "guestId": 1 },
+      { "parkAreaId": 1, "guestId": 2 },
+      { "parkAreaId": 1, "guestId": 3 },
+      { "parkAreaId": 1, "guestId": 4 },
+      { "parkAreaId": 2, "guestId": 5 },
+      { "parkAreaId": 2, "guestId": 6 },
+      { "parkAreaId": 2, "guestId": 7 },
+      { "parkAreaId": 2, "guestId": 8 },
+      { "parkAreaId": 2, "guestId": 1 },
+      { "parkAreaId": 2, "guestId": 3 },
+      { "parkAreaId": 2, "guestId": 9 },
+      { "parkAreaId": 2, "guestId": 2 },
+      { "parkAreaId": 2, "guestId": 4 },
+      { "parkAreaId": 3, "guestId": 9 },
+      { "parkAreaId": 3, "guestId": 2 },
+      { "parkAreaId": 4, "guestId": 8 },
+      { "parkAreaId": 4, "guestId": 1 },
+      { "parkAreaId": 4, "guestId": 3 },
+      { "parkAreaId": 4, "guestId": 5 },
+      { "parkAreaId": 4, "guestId": 2 },
+      { "parkAreaId": 4, "guestId": 9 },
+      { "parkAreaId": 5, "guestId": 7 },
+      { "parkAreaId": 5, "guestId": 9 },
+      { "parkAreaId": 5, "guestId": 3 },
+      { "parkAreaId": 6, "guestId": 4 }
     ]
   }
 
